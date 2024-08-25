@@ -26,7 +26,7 @@ class WeatherInfoBody extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              weatherModel.country,
+              '${weatherModel.country}(${weatherModel.name})',
               style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
             ),
             Text(
